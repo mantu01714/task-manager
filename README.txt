@@ -8,6 +8,11 @@ CANDIDATE INFORMATION
   Project Name  : Team Task Manager
   Tech Stack    : React.js, Node.js, Express, PostgreSQL, Prisma ORM
   Architecture  : REST API + SPA (Single Page Application)
+  
+  LIVE LINKS (Railway)
+  --------------------
+  Frontend URL  : https://illustrious-determination-production-b2f4.up.railway.app
+  Backend API   : https://task-manager-production-5312.up.railway.app/api
 
 
 ================================================================================
@@ -305,12 +310,12 @@ Admins manage teams and tasks, while Members track and update their assignments.
   - Start Command   : npm start
   - Environment Vars: DATABASE_URL, JWT_SECRET, PORT
 
-  FRONTEND (Vercel)
-  -----------------
+  FRONTEND (Railway.app)
+  ----------------------
   - Root Directory  : frontend/
-  - Build Command   : npm run build
-  - Output Dir      : dist
-  - Environment Vars: VITE_API_URL=https://your-backend.railway.app/api
+  - Build Method    : Dockerfile (provided)
+  - Environment Vars: VITE_API_URL=https://task-manager-production-5312.up.railway.app/api
+  - Live URL        : https://illustrious-determination-production-b2f4.up.railway.app
 
 
 ================================================================================
