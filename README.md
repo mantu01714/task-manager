@@ -88,12 +88,10 @@ A production-ready, modern Team Task Manager web application designed to help te
 4. Set the environment variables (`DATABASE_URL`, `JWT_SECRET`, `PORT`) in Railway's variable dashboard. Railway automatically provides the `DATABASE_URL` from the provisioned Postgres database.
 5. In your Railway service settings, set the build command to `npm install && npx prisma generate` and start command to `node src/index.js` or `npx prisma migrate deploy && node src/index.js`.
 
-### Deploying the Frontend (Vercel)
-1. Create an account on [Vercel](https://vercel.com/).
+### Deploying the Frontend (Railway)
+1. Create an account on [Railway](https://railway.app/).
 2. Import your GitHub repository and select the `frontend` folder as the Root Directory.
 3. Set the Build Command to `npm run build` and Output Directory to `dist`.
 4. Add the `VITE_API_URL` environment variable pointing to your deployed Railway backend URL.
 5. Deploy!
 
-## 📸 Screenshots
-*(Add screenshots of your UI here, particularly the Dashboard, Kanban board, and Dark Mode)*
